@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+     crossorigin="anonymous"
+  />
+    <title>Robotique club </title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo"><img src="images/logo.png" alt="">
+          </a>
+          
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#services" class="navbar__links" id="services-page"
+                >Services</a
+              >
+            </li>
+            <li class="navbar__item">
+              <a href="#contact" class="navbar__links" id="about-page">Contact</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="#sign-up" class="button" id="signup-btn">
+                Se connecter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+ 
+    <!-- login section -->
+     <div class="modal" id="email-modal">
+       <div class="modal-content">
+         <span class="close-btn">&times;</span>
+         <div class="modal-content-left">
+           <img src="images/logiin.svg" alt="" id="modal-img">
+         </div>
+         <div class="modal-content-right">
+           <form action="" method="GET " class="modal-form" id="form">
+            <img src="images/logo.png" alt="">
+             <div class="form-validation">
+               <input type="text" class="modal-input" id="name" name="name" placeholder="Nom" autofocus>
+               <p></p>
+             </div>
+             <div class="form-validation">
+               <input type="email" class="modal-input" id="emaile" name="email" placeholder="Email">
+               <p></p>
+             </div>
+             <div class="form-validation">
+               <input type="password" class="modal-input" id="password" name="password" placeholder="Mot de passe">
+               <p></p>
+             </div>
+             <div class="form-validation">
+               <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Mot de passe">
+               <p></p>
+             </div>
+             <input type="submit" class="modal-input-btn" value="login">
+             <span class="modal-input-login">already have an account ? login <a href="#">here</a></span>
+           </form>
+         </div>
+       </div>
+     </div>
+
+
+
+
+   <!-- hero section -->
+
+    <div class="hero" id="home">
+        <div class="hero__container">
+          
+            <h1 class="hero__heading"> <span>La robotique pour tous,</span></h1>
+          <p class="hero__description">Club de robotique pour les jeunes</p>
+          <button class="main__btn"><a href="explore.html">Explore</a></button>
+        
+          
+           <div class="hero__img--container">
+          
+        </div>
+        </div>
+       
+      </div>
+      <!-- about section -->
+      <div class="main" id="about">
+        <div class="main__container">
+          <div class="main__img__container">
+            <div class="main__img--card"><img src="images/kids2.jpg" alt=""></div>
+          </div>
+          <div class="main__content">
+            <h1>CLUB DE SCIENCE ROBOTIQUE</h1>
+            <h2>Pour les fans de robots !</h2>
+            <p>  Bonne nouvelle, il sera proposé à la réservation pour la saison 2021-2022 ! </p>
+            <button class="main__btn"> <a href="pre-inscri.html">  pré-inscrire</a></button>
+          </div>
+        </div>
+      </div>
+      <!-- services section -->
+      <div class="services" id="services">
+        <h1>Nos activités</h1>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <h2>custom colorways</h2>
+            <img src="images/act1.jpg" alt="">
+            <div class="services__btn"><button>Plus de détails</button></div>
+          </div>
+          <div class="services__card">
+            <h2>are you ready</h2>
+            <img src="images/act2.jpg" alt="">
+            <div class="services__btn"><button>Plus de détails</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Certifications</h2>
+            <img src="images/act3.jpg" alt="">
+            
+            <div class="services__btn"><button>Plus de détails</button></div>
+          </div>
+          <div class="services__card">
+           <h2>Intelligence artificial</h2>
+            
+            <img src="images/act4.jpg" alt="">
+            <div class="services__btn"><button>Plus de détails</button></div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- email section-->
+      <div class="email">
+        <div class="email__content">
+          <h1>Entrez votre email </h1>
+          <p> Recevez les dernières nouvelles, offres et promotions
+
+          </p>
+          <form action="#">
+            <div class="form__wrap">
+              <label for="email">
+                <input type="email" placeholder="entrez votre email" id="email">
+              </label>
+              <button class="buttonn" type="submit">enovoyer</button>
+          
+
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+      <!-- contact section -->
+      <div class="container" id="contact">
+        
+        <div class="form">
+
+            
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+          <div class="info">
+            <div class="information">
+              <img src="images/location.png" class="icon" alt="" />
+              <p>92 Cherry Drive Uniondale, NY 11553</p>
+            </div>
+            <div class="information">
+              <img src="images/email.png" class="icon" alt="" />
+              <p>lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              <img src="images/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+           </div>
+           <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+            </div>
+            
+
+            <div class="contact-form" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.311463280226!2d10.17265456528955!3d36.787082029951335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3408c0a06d69%3A0x3b8c5efde9487a09!2sESSECT%2C%20Ave%20Ali%20Trad%2C%20Tunis!5e0!3m2!1sfr!2stn!4v1616095840226!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+     </div>
+
+
+      <!-- feature section -->
+      <!-- <div class="main" id="sign-up">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>welcome </h1>
+            <h2>sign-up today</h2>
+            <p>  see what makes different</p>
+            <button class="main__btn"> <a href="#"> sign-up</a></button>
+          </div>
+          <div class="main__img__container">
+            <div class="main__img--card"><i class="fas fa-users"></i></div>
+          </div>
+        
+        </div>
+      </div> -->
+      <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+              <a href="/">  <i class="fab fa-instagram"></i>    Instagram</a>
+              <a href="/"><i class="fab fa-facebook"></i >Facebook</a>
+              <a href="/"><i class="fab fa-youtube  "></i>  Youtube</a>
+              <a href="/"><i class="fab fa-twitter"></i>Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="footer__logo">zyga   </a>
+          </div>
+          <p class="website__rights">© zyga 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="social__icon--link" target= "_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.Youtube.com/" class="social__icon--link" target= "_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com/" class="social__icon--link" target= "_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://www.Twitter.com/" class="social__icon--link" target= "_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
